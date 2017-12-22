@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Crafting
+Bundle-SymbolicName: org.duff.ddo.crafting
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Dufler
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: org.duff.ddo.crafting,
+ org.duff.ddo.crafting.csv,
+ org.duff.ddo.crafting.data,
+ org.duff.ddo.crafting.logic,
+ org.duff.ddo.crafting.model
+Bundle-ClassPath: lib/sqlite-jdbc-3.20.0.jar,
+ .
+Require-Bundle: org.eclipse.jface,
+ org.eclipse.equinox.registry
